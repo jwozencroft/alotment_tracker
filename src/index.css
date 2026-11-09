@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+/* 
+  Outdoor Botanical & Allotment Green Theme
+  Natural sage, forest greens, warm fertile soil accents, and organic textures.
+*/
+
+:root {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #F4F7F4;
+  color: #1A2E1F;
+}
+
+body {
+  background-color: #F4F7F4 !important;
+  color: #1A2E1F !important;
+}
+
+/* Organic, pleasant rounded cards with natural softness */
+.rounded-2xl {
+  border-radius: 1rem !important;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem !important;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem !important;
+}
+
+/* Outdoors natural text hierarchy */
+.text-neutral-900, .text-neutral-800, .text-gray-900, .text-gray-800 {
+  color: #162C1B !important;
+}
+
+.text-neutral-700, .text-gray-700 {
+  color: #27452E !important;
+}
+
+.text-neutral-600, .text-gray-600 {
+  color: #3B5E43 !important;
+}
+
+.text-neutral-500, .text-gray-500 {
+  color: #55785E !important;
+}
+
+.text-neutral-400, .text-gray-400 {
+  color: #799A81 !important;
+}
+
+/* Soft botanical border outlines */
+.border-neutral-100, .border-neutral-200, .border-gray-100, .border-gray-200, .border-neutral-50 {
+  border-color: #DEE8DF !important;
+}
+
+/* Natural card styling */
+.bg-white {
+  background-color: #FFFFFF !important;
+}
+
+/* No scrollbar customization */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

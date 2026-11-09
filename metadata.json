@@ -1,0 +1,6 @@
+{
+  "name": "Allotment Tracker",
+  "description": "A collaborative, multi-user allotment tracking application featuring real-time synchronization, advanced data visualization charts, interactive bed layouts, and an AI-powered gardening assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
